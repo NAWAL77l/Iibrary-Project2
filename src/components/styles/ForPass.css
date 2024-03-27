@@ -1,0 +1,134 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 900px;
+    background: #fff;
+    padding-bottom: 30px;
+    align-items: center;
+    top: 0px;
+    margin: auto;
+    text-align: center;
+}
+
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+    /* عرض الإطار */
+    height: 800px;
+    /* طول الإطار */
+    background-color: #fff;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 50px 30px rgba(22, 121, 111, 0.8);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: 70px;
+    height: 100px;
+    font-size: 54px;
+    padding-left: 30%;
+    margin-bottom: 20px;
+}
+
+.header1 {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    margin: 50px auto;
+    /* توسيط العنصر عمودياً */
+    color: #16796F;
+    font-size: 40px;
+    text-align: center;
+    /* توسيط النص أفقياً */
+    margin: 50 auto;
+}
+
+.text1 {
+    color: #151415;
+    font-size: 15px;
+    font-weight: 328px;
+    justify-self: center;
+}
+
+.text2 {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.text3 {
+    margin-left: 50px;
+}
+
+.text4 {
+    margin-left: 50px;
+}
+
+.text5 {
+    margin-left: 50px;
+}
+
+.inputs {
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 400px;
+    height: 60px;
+    background: #EAEAEA;
+    border-radius: 6px;
+}
+
+.input img {
+    margin: 0px 30px;
+}
+
+.input input {
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 19px;
+}
+
+.forgot-password {
+    padding-left: 10px;
+    margin-top: 0px;
+    color: #000000;
+    font-size: 12px;
+
+}
+
+.submit-container {
+    display: flex;
+    gap: 15px;
+    margin: 30px auto;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 40px;
+    color: #fff;
+    background: #16796F;
+    border-radius: 6px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+}

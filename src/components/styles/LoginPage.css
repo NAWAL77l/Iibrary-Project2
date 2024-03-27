@@ -1,0 +1,136 @@
+.logo {
+    position: flex;
+    padding-bottom: 150%;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    left: 0px;
+    top: 0;
+    bottom: 0;
+    width: 500px;
+    height: 900px;
+    z-index: -1;
+    box-shadow: #16796f;
+
+
+}
+
+.frame {
+    position: fixed;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    /* عرض الإطار */
+    height: 800px;
+    /* طول الإطار */
+    background-color: #fff;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 50px 30px rgba(22, 121, 111, 0.8);
+}
+
+.header {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 9px;
+    width: 650px;
+    margin-top: 150px;
+    color: #16796f;
+    font-size: 54px;
+    margin-right: 3000px;
+
+}
+
+
+.inputs {
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 626px;
+    height: 82px;
+    background: #eaeaea;
+    border-radius: 6px;
+
+}
+
+.input img {
+    margin: 0px 30px;
+}
+
+.input input {
+    height: 82px;
+    width: 626px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 19px;
+
+
+}
+
+.forgot-password {
+    padding-left: 370px;
+    margin-top: 0px;
+    color: #050505;
+    font-size: 18px;
+
+}
+
+.forgot-password span {
+    color: #16796f;
+    cursor: pointer;
+}
+
+.submit-container {
+    display: flex;
+    gap: 0px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 82px;
+    color: #fff;
+    background: #16796f;
+    border-radius: 6px;
+    font-size: 25px;
+    cursor: pointer;
+
+
+}
+
+.account {
+
+    padding-left: 200px;
+    margin-top: 0px;
+    color: #0f0d0d;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+}
+
+.account span {
+    color: #16796f;
+    cursor: pointer;
+}
