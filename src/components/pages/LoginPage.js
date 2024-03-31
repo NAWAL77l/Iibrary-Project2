@@ -6,11 +6,12 @@ import Buttons1 from '../inc/Buttons1'
 import Buttons2 from '../inc/Buttons2.js'
 import Logo from '../inc/Logo.js'
 
+
 const LoginPage = () => {
   return (
-
 <div className='frame'>
-    <div className='container'>
+    <div className='container'>  
+    
       <TcraetAcount/>
       <Buttons/>
       <Buttons1/>
@@ -18,6 +19,8 @@ const LoginPage = () => {
       <Logo/>
     </div>
     </div>
+   
+   
   )
 }
 export default LoginPage
