@@ -83,10 +83,12 @@
 }
 
 .forgot-password {
-    padding-left: 370px;
+    padding-left: 250px;
     margin-top: 0px;
-    color: #050505;
+    color: #bb3333;
     font-size: 18px;
+    align-items: center;
+    justify-content: center;
 
 }
 
